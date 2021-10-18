@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYj-Ca-sI5">
-                                <rect key="frame" x="10" y="54" width="394" height="399"/>
+                                <rect key="frame" x="10" y="54" width="394" height="394"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B0Q-RB-27w">
-                                <rect key="frame" x="10" y="463" width="394" height="399"/>
+                                <rect key="frame" x="10" y="458" width="394" height="394"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
@@ -32,7 +32,7 @@
                             <constraint firstItem="B0Q-RB-27w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="KAQ-8Y-tfn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B0Q-RB-27w" secondAttribute="trailing" constant="10" id="OGH-Kx-MGd"/>
                             <constraint firstItem="B0Q-RB-27w" firstAttribute="top" secondItem="vYj-Ca-sI5" secondAttribute="bottom" constant="10" id="QgY-gZ-iUb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B0Q-RB-27w" secondAttribute="bottom" id="bx0-6c-Fsw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="B0Q-RB-27w" secondAttribute="bottom" constant="10" id="bx0-6c-Fsw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vYj-Ca-sI5" secondAttribute="trailing" constant="10" id="nHP-5J-CFg"/>
                             <constraint firstItem="B0Q-RB-27w" firstAttribute="height" secondItem="vYj-Ca-sI5" secondAttribute="height" id="q5q-HJ-Hl9"/>
                             <constraint firstItem="vYj-Ca-sI5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="wbc-wA-aXT"/>
